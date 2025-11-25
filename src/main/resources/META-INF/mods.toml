@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+
+[[mixins]]
+config="automodupdater.mixins.json"
+
+[[mods]]
+modId="automodupdater"
+version="1.0.0"
+displayName="AutoModUpdater"
+description=''
+authors="AutoModUpdater"
+displayURL="https://github.com/nicolas-potel/AutoModUpdater"
+
+[[dependencies.automodupdater]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.automodupdater]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+

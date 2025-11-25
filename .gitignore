@@ -1,0 +1,34 @@
+# Build / Gradle
+.gradle/
+build/
+run/
+out/
+mixin.out/
+
+# IDE / outils
+.idea/
+.vscode/
+.settings/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+bin/
+
+# Générés / caches
+src/generated/
+logs/
+crash-reports/
+saves/
+run/
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.lock
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
